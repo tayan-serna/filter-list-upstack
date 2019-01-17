@@ -1,0 +1,16 @@
+.list-container {
+  .filter{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .posts-container {
+    max-height: calc(100vh - 80px);
+    overflow-y: scroll;
+
+    &__card {
+      width: 50%;
+      margin-top: 1rem;
+    }
+  }
+}
